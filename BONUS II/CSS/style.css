@@ -1,6 +1,6 @@
 /* DEBUG */
 
-.box {
+/* .box {
     display: flex;
     justify-content: center;
     color: white;
@@ -25,12 +25,6 @@
 .breaking-space {
     height: 20px;
 }
-.center {
-    justify-content: center;
-}
-.end {
-    justify-content: flex-end;
-}
 .fixed-height {
     min-height: 60px;
 }
@@ -38,14 +32,42 @@
     max-height: 50%;
 }
 .middle {
-    align-items: center;
+    position: relative;
+    top: 25%;
 }
 .bottom {
-    align-items: flex-end;
+    position: relative;
+    top: 50%;
 }
 .space-around {
     justify-content: space-around;
 }
 .space-between {
     justify-content: space-between;
+} */
+
+.black {
+    background-color: rgb(52, 58, 52);
+    height: 19.34px;
+    width: 100%;
+}
+.orange {
+    background-color: rgb(243, 143, 6);
+    height: 19.34px;
+    width: 100%;
+}
+.red {
+    background-color: rgb(229, 74, 56);
+    height: 19.34px;
+    width: 100%;
+}
+.yellow {
+    background-color: rgb(243, 230, 1);
+    height: 19.34px;
+    width: 100%;
+}
+.gray {
+    background-color: rgb(208, 210, 207);
+    height: 19.34px;
+    width: 100%;
 }
