@@ -1,0 +1,7 @@
+/* DEBUG */
+[class*="col-"] {
+    flex: 0 0 auto;
+    min-height: 30px;
+    background-color: blue;
+    border: solid 2px greenyellow;
+}
